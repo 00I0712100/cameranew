@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E52AE8291C05C6200097AAD6 /* icon in Resources */ = {isa = PBXBuildFile; fileRef = E52AE8281C05C6200097AAD6 /* icon */; };
+		E588938E1BCE579D00A5220F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E588938D1BCE579D00A5220F /* main.m */; };
+		E58893911BCE579D00A5220F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E58893901BCE579D00A5220F /* AppDelegate.m */; };
+		E58893941BCE579D00A5220F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E58893931BCE579D00A5220F /* ViewController.m */; };
+		E58893971BCE579D00A5220F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E58893951BCE579D00A5220F /* Main.storyboard */; };
+		E58893991BCE579D00A5220F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E58893981BCE579D00A5220F /* Images.xcassets */; };
+		E588939C1BCE579E00A5220F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E588939A1BCE579E00A5220F /* LaunchScreen.xib */; };
+		E58893A81BCE579E00A5220F /* seihoukeiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E58893A71BCE579E00A5220F /* seihoukeiTests.m */; };
+		E58893B61BE0F28D00A5220F /* 01_1.png in Resources */ = {isa = PBXBuildFile; fileRef = E58893B51BE0F28D00A5220F /* 01_1.png */; };
+		E58893BC1BEA087300A5220F /* 03.png in Resources */ = {isa = PBXBuildFile; fileRef = E58893BB1BEA087300A5220F /* 03.png */; };
+		E58893C01BEA113700A5220F /* 06.png in Resources */ = {isa = PBXBuildFile; fileRef = E58893BD1BEA113700A5220F /* 06.png */; };
+		E58893C21BEA113700A5220F /* 04.png in Resources */ = {isa = PBXBuildFile; fileRef = E58893BF1BEA113700A5220F /* 04.png */; };
+		E5C493951C0EF304003896AE /* 02.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C493941C0EF304003896AE /* 02.png */; };
+		E5C493971C0EF33F003896AE /* icon03.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C493961C0EF33F003896AE /* icon03.png */; };
+		E5C493991C0EF34F003896AE /* 05.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C493981C0EF34F003896AE /* 05.png */; };
+		E5C4939B1C0EF35C003896AE /* 08.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C4939A1C0EF35C003896AE /* 08.png */; };
+		E5C493A01C0EFA6B003896AE /* 09.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C4939F1C0EFA6B003896AE /* 09.png */; };
+		E5C493AE1C0F0EED003896AE /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C493AD1C0F0EED003896AE /* 10.png */; };
+		E5C493B01C0F0F29003896AE /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C493AF1C0F0F28003896AE /* 11.png */; };
+		E5C493B21C0F0F6A003896AE /* 12.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C493B11C0F0F6A003896AE /* 12.png */; };
+		E5C493BD1C18440F003896AE /* CameraManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C493BC1C18440F003896AE /* CameraManager.m */; };
+		E5C493C01C184DFF003896AE /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C493BF1C184DFF003896AE /* CameraViewController.m */; };
+		E8902FB6B969C811D6F15C77 /* libPods-seihoukei.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B189C824ED817EFD795263BB /* libPods-seihoukei.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E58893A21BCE579E00A5220F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E58893801BCE579D00A5220F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E58893871BCE579D00A5220F;
+			remoteInfo = seihoukei;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FECD8299E488619A9BE343B /* Pods-seihoukei.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-seihoukei.debug.xcconfig"; path = "Pods/Target Support Files/Pods-seihoukei/Pods-seihoukei.debug.xcconfig"; sourceTree = "<group>"; };
+		B189C824ED817EFD795263BB /* libPods-seihoukei.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-seihoukei.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E52AE8281C05C6200097AAD6 /* icon */ = {isa = PBXFileReference; lastKnownFileType = folder; path = icon; sourceTree = "<group>"; };
+		E58893881BCE579D00A5220F /* seihoukei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = seihoukei.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E588938C1BCE579D00A5220F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E588938D1BCE579D00A5220F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E588938F1BCE579D00A5220F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E58893901BCE579D00A5220F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E58893921BCE579D00A5220F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E58893931BCE579D00A5220F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E58893961BCE579D00A5220F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E58893981BCE579D00A5220F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E588939B1BCE579E00A5220F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E58893A11BCE579E00A5220F /* seihoukeiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = seihoukeiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E58893A61BCE579E00A5220F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E58893A71BCE579E00A5220F /* seihoukeiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = seihoukeiTests.m; sourceTree = "<group>"; };
+		E58893B51BE0F28D00A5220F /* 01_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 01_1.png; path = seihoukei/01_1.png; sourceTree = "<group>"; };
+		E58893BB1BEA087300A5220F /* 03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 03.png; path = seihoukei/03.png; sourceTree = "<group>"; };
+		E58893BD1BEA113700A5220F /* 06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 06.png; path = seihoukei/06.png; sourceTree = "<group>"; };
+		E58893BF1BEA113700A5220F /* 04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 04.png; path = seihoukei/04.png; sourceTree = "<group>"; };
+		E5C493941C0EF304003896AE /* 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02.png; sourceTree = "<group>"; };
+		E5C493961C0EF33F003896AE /* icon03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon03.png; sourceTree = "<group>"; };
+		E5C493981C0EF34F003896AE /* 05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 05.png; sourceTree = "<group>"; };
+		E5C4939A1C0EF35C003896AE /* 08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 08.png; sourceTree = "<group>"; };
+		E5C4939F1C0EFA6B003896AE /* 09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 09.png; sourceTree = "<group>"; };
+		E5C493AD1C0F0EED003896AE /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
+		E5C493AF1C0F0F28003896AE /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11.png; sourceTree = "<group>"; };
+		E5C493B11C0F0F6A003896AE /* 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12.png; sourceTree = "<group>"; };
+		E5C493BB1C18440F003896AE /* CameraManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraManager.h; sourceTree = "<group>"; };
+		E5C493BC1C18440F003896AE /* CameraManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraManager.m; sourceTree = "<group>"; };
+		E5C493BE1C184DFF003896AE /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		E5C493BF1C184DFF003896AE /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		FCE959BAFA2B0E28472E3972 /* Pods-seihoukei.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-seihoukei.release.xcconfig"; path = "Pods/Target Support Files/Pods-seihoukei/Pods-seihoukei.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E58893851BCE579D00A5220F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8902FB6B969C811D6F15C77 /* libPods-seihoukei.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E588939E1BCE579E00A5220F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36B1271FE56D50DFF87936E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FECD8299E488619A9BE343B /* Pods-seihoukei.debug.xcconfig */,
+				FCE959BAFA2B0E28472E3972 /* Pods-seihoukei.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		931B2891C8B69273410F447F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B189C824ED817EFD795263BB /* libPods-seihoukei.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E588937F1BCE579D00A5220F = {
+			isa = PBXGroup;
+			children = (
+				E5C4939C1C0EF4AD003896AE /* images */,
+				E588938A1BCE579D00A5220F /* seihoukei */,
+				E58893A41BCE579E00A5220F /* seihoukeiTests */,
+				E58893891BCE579D00A5220F /* Products */,
+				36B1271FE56D50DFF87936E2 /* Pods */,
+				931B2891C8B69273410F447F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E58893891BCE579D00A5220F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E58893881BCE579D00A5220F /* seihoukei.app */,
+				E58893A11BCE579E00A5220F /* seihoukeiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E588938A1BCE579D00A5220F /* seihoukei */ = {
+			isa = PBXGroup;
+			children = (
+				E5C493BA1C18440F003896AE /* DMGPUImageCamera */,
+				E52AE8281C05C6200097AAD6 /* icon */,
+				E588938F1BCE579D00A5220F /* AppDelegate.h */,
+				E58893901BCE579D00A5220F /* AppDelegate.m */,
+				E58893921BCE579D00A5220F /* ViewController.h */,
+				E58893931BCE579D00A5220F /* ViewController.m */,
+				E58893951BCE579D00A5220F /* Main.storyboard */,
+				E5C493BE1C184DFF003896AE /* CameraViewController.h */,
+				E5C493BF1C184DFF003896AE /* CameraViewController.m */,
+				E58893981BCE579D00A5220F /* Images.xcassets */,
+				E588939A1BCE579E00A5220F /* LaunchScreen.xib */,
+				E588938B1BCE579D00A5220F /* Supporting Files */,
+			);
+			path = seihoukei;
+			sourceTree = "<group>";
+		};
+		E588938B1BCE579D00A5220F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E588938C1BCE579D00A5220F /* Info.plist */,
+				E588938D1BCE579D00A5220F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E58893A41BCE579E00A5220F /* seihoukeiTests */ = {
+			isa = PBXGroup;
+			children = (
+				E58893A71BCE579E00A5220F /* seihoukeiTests.m */,
+				E58893A51BCE579E00A5220F /* Supporting Files */,
+			);
+			path = seihoukeiTests;
+			sourceTree = "<group>";
+		};
+		E58893A51BCE579E00A5220F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E58893A61BCE579E00A5220F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E5C4939C1C0EF4AD003896AE /* images */ = {
+			isa = PBXGroup;
+			children = (
+				E5C493AD1C0F0EED003896AE /* 10.png */,
+				E5C4939F1C0EFA6B003896AE /* 09.png */,
+				E5C493AF1C0F0F28003896AE /* 11.png */,
+				E5C493B11C0F0F6A003896AE /* 12.png */,
+				E58893BD1BEA113700A5220F /* 06.png */,
+				E58893BF1BEA113700A5220F /* 04.png */,
+				E58893BB1BEA087300A5220F /* 03.png */,
+				E58893B51BE0F28D00A5220F /* 01_1.png */,
+				E5C4939A1C0EF35C003896AE /* 08.png */,
+				E5C493981C0EF34F003896AE /* 05.png */,
+				E5C493961C0EF33F003896AE /* icon03.png */,
+				E5C493941C0EF304003896AE /* 02.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		E5C493BA1C18440F003896AE /* DMGPUImageCamera */ = {
+			isa = PBXGroup;
+			children = (
+				E5C493BB1C18440F003896AE /* CameraManager.h */,
+				E5C493BC1C18440F003896AE /* CameraManager.m */,
+			);
+			path = DMGPUImageCamera;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E58893871BCE579D00A5220F /* seihoukei */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E58893AB1BCE579E00A5220F /* Build configuration list for PBXNativeTarget "seihoukei" */;
+			buildPhases = (
+				81EC8CDE5ED475C9B5AA29DB /* Check Pods Manifest.lock */,
+				E58893841BCE579D00A5220F /* Sources */,
+				E58893851BCE579D00A5220F /* Frameworks */,
+				E58893861BCE579D00A5220F /* Resources */,
+				46104ACB06BCEA2328FBB56E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = seihoukei;
+			productName = seihoukei;
+			productReference = E58893881BCE579D00A5220F /* seihoukei.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E58893A01BCE579E00A5220F /* seihoukeiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E58893AE1BCE579E00A5220F /* Build configuration list for PBXNativeTarget "seihoukeiTests" */;
+			buildPhases = (
+				E588939D1BCE579E00A5220F /* Sources */,
+				E588939E1BCE579E00A5220F /* Frameworks */,
+				E588939F1BCE579E00A5220F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E58893A31BCE579E00A5220F /* PBXTargetDependency */,
+			);
+			name = seihoukeiTests;
+			productName = seihoukeiTests;
+			productReference = E58893A11BCE579E00A5220F /* seihoukeiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E58893801BCE579D00A5220F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "高橋知子";
+				TargetAttributes = {
+					E58893871BCE579D00A5220F = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 4BTF9897A6;
+					};
+					E58893A01BCE579E00A5220F = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = E58893871BCE579D00A5220F;
+					};
+				};
+			};
+			buildConfigurationList = E58893831BCE579D00A5220F /* Build configuration list for PBXProject "seihoukei" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E588937F1BCE579D00A5220F;
+			productRefGroup = E58893891BCE579D00A5220F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E58893871BCE579D00A5220F /* seihoukei */,
+				E58893A01BCE579E00A5220F /* seihoukeiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E58893861BCE579D00A5220F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5C493A01C0EFA6B003896AE /* 09.png in Resources */,
+				E5C493991C0EF34F003896AE /* 05.png in Resources */,
+				E58893BC1BEA087300A5220F /* 03.png in Resources */,
+				E58893B61BE0F28D00A5220F /* 01_1.png in Resources */,
+				E58893971BCE579D00A5220F /* Main.storyboard in Resources */,
+				E588939C1BCE579E00A5220F /* LaunchScreen.xib in Resources */,
+				E5C4939B1C0EF35C003896AE /* 08.png in Resources */,
+				E58893991BCE579D00A5220F /* Images.xcassets in Resources */,
+				E58893C21BEA113700A5220F /* 04.png in Resources */,
+				E52AE8291C05C6200097AAD6 /* icon in Resources */,
+				E5C493AE1C0F0EED003896AE /* 10.png in Resources */,
+				E5C493B01C0F0F29003896AE /* 11.png in Resources */,
+				E5C493B21C0F0F6A003896AE /* 12.png in Resources */,
+				E58893C01BEA113700A5220F /* 06.png in Resources */,
+				E5C493951C0EF304003896AE /* 02.png in Resources */,
+				E5C493971C0EF33F003896AE /* icon03.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E588939F1BCE579E00A5220F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46104ACB06BCEA2328FBB56E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-seihoukei/Pods-seihoukei-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81EC8CDE5ED475C9B5AA29DB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E58893841BCE579D00A5220F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5C493C01C184DFF003896AE /* CameraViewController.m in Sources */,
+				E58893941BCE579D00A5220F /* ViewController.m in Sources */,
+				E58893911BCE579D00A5220F /* AppDelegate.m in Sources */,
+				E5C493BD1C18440F003896AE /* CameraManager.m in Sources */,
+				E588938E1BCE579D00A5220F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E588939D1BCE579E00A5220F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E58893A81BCE579E00A5220F /* seihoukeiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E58893A31BCE579E00A5220F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E58893871BCE579D00A5220F /* seihoukei */;
+			targetProxy = E58893A21BCE579E00A5220F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E58893951BCE579D00A5220F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E58893961BCE579D00A5220F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E588939A1BCE579E00A5220F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E588939B1BCE579E00A5220F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E58893A91BCE579E00A5220F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E58893AA1BCE579E00A5220F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E58893AC1BCE579E00A5220F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FECD8299E488619A9BE343B /* Pods-seihoukei.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = seihoukei/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E58893AD1BCE579E00A5220F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCE959BAFA2B0E28472E3972 /* Pods-seihoukei.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = seihoukei/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E58893AF1BCE579E00A5220F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = seihoukeiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/seihoukei.app/seihoukei";
+			};
+			name = Debug;
+		};
+		E58893B01BCE579E00A5220F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = seihoukeiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/seihoukei.app/seihoukei";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E58893831BCE579D00A5220F /* Build configuration list for PBXProject "seihoukei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E58893A91BCE579E00A5220F /* Debug */,
+				E58893AA1BCE579E00A5220F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E58893AB1BCE579E00A5220F /* Build configuration list for PBXNativeTarget "seihoukei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E58893AC1BCE579E00A5220F /* Debug */,
+				E58893AD1BCE579E00A5220F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E58893AE1BCE579E00A5220F /* Build configuration list for PBXNativeTarget "seihoukeiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E58893AF1BCE579E00A5220F /* Debug */,
+				E58893B01BCE579E00A5220F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E58893801BCE579D00A5220F /* Project object */;
+}
