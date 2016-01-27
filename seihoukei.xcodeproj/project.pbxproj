@@ -8,6 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		E52AE8291C05C6200097AAD6 /* icon in Resources */ = {isa = PBXBuildFile; fileRef = E52AE8281C05C6200097AAD6 /* icon */; };
+		E57A626B1C2A7BFC00381E46 /* CameraManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E57A626A1C2A7BFC00381E46 /* CameraManager.m */; };
+		E57A626F1C2B932000381E46 /* 01_1.png in Resources */ = {isa = PBXBuildFile; fileRef = E57A626C1C2B932000381E46 /* 01_1.png */; };
+		E57A62701C2B932000381E46 /* 03.png in Resources */ = {isa = PBXBuildFile; fileRef = E57A626D1C2B932000381E46 /* 03.png */; };
+		E57A62711C2B932000381E46 /* 02.png in Resources */ = {isa = PBXBuildFile; fileRef = E57A626E1C2B932000381E46 /* 02.png */; };
+		E57A62751C2B932A00381E46 /* 04.png in Resources */ = {isa = PBXBuildFile; fileRef = E57A62731C2B932A00381E46 /* 04.png */; };
+		E57A62781C2B933D00381E46 /* 06.png in Resources */ = {isa = PBXBuildFile; fileRef = E57A62761C2B933D00381E46 /* 06.png */; };
+		E57A62791C2B933D00381E46 /* 07.png in Resources */ = {isa = PBXBuildFile; fileRef = E57A62771C2B933D00381E46 /* 07.png */; };
+		E57A627B1C2B935000381E46 /* 12.png in Resources */ = {isa = PBXBuildFile; fileRef = E57A627A1C2B935000381E46 /* 12.png */; };
+		E57A62811C2B935D00381E46 /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = E57A627C1C2B935D00381E46 /* 11.png */; };
+		E57A62821C2B935D00381E46 /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = E57A627D1C2B935D00381E46 /* 10.png */; };
+		E57A62831C2B935D00381E46 /* 09.png in Resources */ = {isa = PBXBuildFile; fileRef = E57A627E1C2B935D00381E46 /* 09.png */; };
+		E57A62841C2B935D00381E46 /* 08.png in Resources */ = {isa = PBXBuildFile; fileRef = E57A627F1C2B935D00381E46 /* 08.png */; };
+		E57A62851C2B935D00381E46 /* 05.png in Resources */ = {isa = PBXBuildFile; fileRef = E57A62801C2B935D00381E46 /* 05.png */; };
+		E57D71AE1C2E77D4009E712B /* shutter.png in Resources */ = {isa = PBXBuildFile; fileRef = E57D71AD1C2E77D4009E712B /* shutter.png */; };
+		E57D71B01C2F5BC0009E712B /* カメラアプリ.png in Resources */ = {isa = PBXBuildFile; fileRef = E57D71AF1C2F5BC0009E712B /* カメラアプリ.png */; };
 		E588938E1BCE579D00A5220F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E588938D1BCE579D00A5220F /* main.m */; };
 		E58893911BCE579D00A5220F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E58893901BCE579D00A5220F /* AppDelegate.m */; };
 		E58893941BCE579D00A5220F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E58893931BCE579D00A5220F /* ViewController.m */; };
@@ -15,19 +30,6 @@
 		E58893991BCE579D00A5220F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E58893981BCE579D00A5220F /* Images.xcassets */; };
 		E588939C1BCE579E00A5220F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E588939A1BCE579E00A5220F /* LaunchScreen.xib */; };
 		E58893A81BCE579E00A5220F /* seihoukeiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E58893A71BCE579E00A5220F /* seihoukeiTests.m */; };
-		E58893B61BE0F28D00A5220F /* 01_1.png in Resources */ = {isa = PBXBuildFile; fileRef = E58893B51BE0F28D00A5220F /* 01_1.png */; };
-		E58893BC1BEA087300A5220F /* 03.png in Resources */ = {isa = PBXBuildFile; fileRef = E58893BB1BEA087300A5220F /* 03.png */; };
-		E58893C01BEA113700A5220F /* 06.png in Resources */ = {isa = PBXBuildFile; fileRef = E58893BD1BEA113700A5220F /* 06.png */; };
-		E58893C21BEA113700A5220F /* 04.png in Resources */ = {isa = PBXBuildFile; fileRef = E58893BF1BEA113700A5220F /* 04.png */; };
-		E5C493951C0EF304003896AE /* 02.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C493941C0EF304003896AE /* 02.png */; };
-		E5C493971C0EF33F003896AE /* icon03.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C493961C0EF33F003896AE /* icon03.png */; };
-		E5C493991C0EF34F003896AE /* 05.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C493981C0EF34F003896AE /* 05.png */; };
-		E5C4939B1C0EF35C003896AE /* 08.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C4939A1C0EF35C003896AE /* 08.png */; };
-		E5C493A01C0EFA6B003896AE /* 09.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C4939F1C0EFA6B003896AE /* 09.png */; };
-		E5C493AE1C0F0EED003896AE /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C493AD1C0F0EED003896AE /* 10.png */; };
-		E5C493B01C0F0F29003896AE /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C493AF1C0F0F28003896AE /* 11.png */; };
-		E5C493B21C0F0F6A003896AE /* 12.png in Resources */ = {isa = PBXBuildFile; fileRef = E5C493B11C0F0F6A003896AE /* 12.png */; };
-		E5C493BD1C18440F003896AE /* CameraManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C493BC1C18440F003896AE /* CameraManager.m */; };
 		E5C493C01C184DFF003896AE /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C493BF1C184DFF003896AE /* CameraViewController.m */; };
 		E8902FB6B969C811D6F15C77 /* libPods-seihoukei.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B189C824ED817EFD795263BB /* libPods-seihoukei.a */; };
 /* End PBXBuildFile section */
@@ -46,6 +48,22 @@
 		1FECD8299E488619A9BE343B /* Pods-seihoukei.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-seihoukei.debug.xcconfig"; path = "Pods/Target Support Files/Pods-seihoukei/Pods-seihoukei.debug.xcconfig"; sourceTree = "<group>"; };
 		B189C824ED817EFD795263BB /* libPods-seihoukei.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-seihoukei.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E52AE8281C05C6200097AAD6 /* icon */ = {isa = PBXFileReference; lastKnownFileType = folder; path = icon; sourceTree = "<group>"; };
+		E57A62691C2A7BEA00381E46 /* CameraManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CameraManager.h; path = DMGPUImageCamera/CameraManager.h; sourceTree = SOURCE_ROOT; };
+		E57A626A1C2A7BFC00381E46 /* CameraManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CameraManager.m; path = DMGPUImageCamera/CameraManager.m; sourceTree = SOURCE_ROOT; };
+		E57A626C1C2B932000381E46 /* 01_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01_1.png; sourceTree = "<group>"; };
+		E57A626D1C2B932000381E46 /* 03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 03.png; sourceTree = "<group>"; };
+		E57A626E1C2B932000381E46 /* 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02.png; sourceTree = "<group>"; };
+		E57A62731C2B932A00381E46 /* 04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 04.png; sourceTree = "<group>"; };
+		E57A62761C2B933D00381E46 /* 06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 06.png; sourceTree = "<group>"; };
+		E57A62771C2B933D00381E46 /* 07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 07.png; sourceTree = "<group>"; };
+		E57A627A1C2B935000381E46 /* 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12.png; sourceTree = "<group>"; };
+		E57A627C1C2B935D00381E46 /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11.png; sourceTree = "<group>"; };
+		E57A627D1C2B935D00381E46 /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
+		E57A627E1C2B935D00381E46 /* 09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 09.png; sourceTree = "<group>"; };
+		E57A627F1C2B935D00381E46 /* 08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 08.png; sourceTree = "<group>"; };
+		E57A62801C2B935D00381E46 /* 05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 05.png; sourceTree = "<group>"; };
+		E57D71AD1C2E77D4009E712B /* shutter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shutter.png; sourceTree = "<group>"; };
+		E57D71AF1C2F5BC0009E712B /* カメラアプリ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "カメラアプリ.png"; sourceTree = "<group>"; };
 		E58893881BCE579D00A5220F /* seihoukei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = seihoukei.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E588938C1BCE579D00A5220F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E588938D1BCE579D00A5220F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -59,20 +77,6 @@
 		E58893A11BCE579E00A5220F /* seihoukeiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = seihoukeiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E58893A61BCE579E00A5220F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E58893A71BCE579E00A5220F /* seihoukeiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = seihoukeiTests.m; sourceTree = "<group>"; };
-		E58893B51BE0F28D00A5220F /* 01_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 01_1.png; path = seihoukei/01_1.png; sourceTree = "<group>"; };
-		E58893BB1BEA087300A5220F /* 03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 03.png; path = seihoukei/03.png; sourceTree = "<group>"; };
-		E58893BD1BEA113700A5220F /* 06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 06.png; path = seihoukei/06.png; sourceTree = "<group>"; };
-		E58893BF1BEA113700A5220F /* 04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 04.png; path = seihoukei/04.png; sourceTree = "<group>"; };
-		E5C493941C0EF304003896AE /* 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02.png; sourceTree = "<group>"; };
-		E5C493961C0EF33F003896AE /* icon03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon03.png; sourceTree = "<group>"; };
-		E5C493981C0EF34F003896AE /* 05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 05.png; sourceTree = "<group>"; };
-		E5C4939A1C0EF35C003896AE /* 08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 08.png; sourceTree = "<group>"; };
-		E5C4939F1C0EFA6B003896AE /* 09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 09.png; sourceTree = "<group>"; };
-		E5C493AD1C0F0EED003896AE /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
-		E5C493AF1C0F0F28003896AE /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11.png; sourceTree = "<group>"; };
-		E5C493B11C0F0F6A003896AE /* 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12.png; sourceTree = "<group>"; };
-		E5C493BB1C18440F003896AE /* CameraManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraManager.h; sourceTree = "<group>"; };
-		E5C493BC1C18440F003896AE /* CameraManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraManager.m; sourceTree = "<group>"; };
 		E5C493BE1C184DFF003896AE /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
 		E5C493BF1C184DFF003896AE /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
 		FCE959BAFA2B0E28472E3972 /* Pods-seihoukei.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-seihoukei.release.xcconfig"; path = "Pods/Target Support Files/Pods-seihoukei/Pods-seihoukei.release.xcconfig"; sourceTree = "<group>"; };
@@ -183,18 +187,20 @@
 		E5C4939C1C0EF4AD003896AE /* images */ = {
 			isa = PBXGroup;
 			children = (
-				E5C493AD1C0F0EED003896AE /* 10.png */,
-				E5C4939F1C0EFA6B003896AE /* 09.png */,
-				E5C493AF1C0F0F28003896AE /* 11.png */,
-				E5C493B11C0F0F6A003896AE /* 12.png */,
-				E58893BD1BEA113700A5220F /* 06.png */,
-				E58893BF1BEA113700A5220F /* 04.png */,
-				E58893BB1BEA087300A5220F /* 03.png */,
-				E58893B51BE0F28D00A5220F /* 01_1.png */,
-				E5C4939A1C0EF35C003896AE /* 08.png */,
-				E5C493981C0EF34F003896AE /* 05.png */,
-				E5C493961C0EF33F003896AE /* icon03.png */,
-				E5C493941C0EF304003896AE /* 02.png */,
+				E57D71AF1C2F5BC0009E712B /* カメラアプリ.png */,
+				E57D71AD1C2E77D4009E712B /* shutter.png */,
+				E57A627C1C2B935D00381E46 /* 11.png */,
+				E57A627D1C2B935D00381E46 /* 10.png */,
+				E57A627E1C2B935D00381E46 /* 09.png */,
+				E57A627F1C2B935D00381E46 /* 08.png */,
+				E57A62801C2B935D00381E46 /* 05.png */,
+				E57A627A1C2B935000381E46 /* 12.png */,
+				E57A62761C2B933D00381E46 /* 06.png */,
+				E57A62771C2B933D00381E46 /* 07.png */,
+				E57A62731C2B932A00381E46 /* 04.png */,
+				E57A626C1C2B932000381E46 /* 01_1.png */,
+				E57A626D1C2B932000381E46 /* 03.png */,
+				E57A626E1C2B932000381E46 /* 02.png */,
 			);
 			name = images;
 			sourceTree = "<group>";
@@ -202,8 +208,8 @@
 		E5C493BA1C18440F003896AE /* DMGPUImageCamera */ = {
 			isa = PBXGroup;
 			children = (
-				E5C493BB1C18440F003896AE /* CameraManager.h */,
-				E5C493BC1C18440F003896AE /* CameraManager.m */,
+				E57A62691C2A7BEA00381E46 /* CameraManager.h */,
+				E57A626A1C2A7BFC00381E46 /* CameraManager.m */,
 			);
 			path = DMGPUImageCamera;
 			sourceTree = "<group>";
@@ -291,22 +297,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5C493A01C0EFA6B003896AE /* 09.png in Resources */,
-				E5C493991C0EF34F003896AE /* 05.png in Resources */,
-				E58893BC1BEA087300A5220F /* 03.png in Resources */,
-				E58893B61BE0F28D00A5220F /* 01_1.png in Resources */,
+				E57A62821C2B935D00381E46 /* 10.png in Resources */,
+				E57A62791C2B933D00381E46 /* 07.png in Resources */,
+				E57D71AE1C2E77D4009E712B /* shutter.png in Resources */,
 				E58893971BCE579D00A5220F /* Main.storyboard in Resources */,
 				E588939C1BCE579E00A5220F /* LaunchScreen.xib in Resources */,
-				E5C4939B1C0EF35C003896AE /* 08.png in Resources */,
+				E57A626F1C2B932000381E46 /* 01_1.png in Resources */,
+				E57A62841C2B935D00381E46 /* 08.png in Resources */,
+				E57A62711C2B932000381E46 /* 02.png in Resources */,
+				E57A62781C2B933D00381E46 /* 06.png in Resources */,
 				E58893991BCE579D00A5220F /* Images.xcassets in Resources */,
-				E58893C21BEA113700A5220F /* 04.png in Resources */,
+				E57A62811C2B935D00381E46 /* 11.png in Resources */,
+				E57A62751C2B932A00381E46 /* 04.png in Resources */,
+				E57D71B01C2F5BC0009E712B /* カメラアプリ.png in Resources */,
+				E57A62831C2B935D00381E46 /* 09.png in Resources */,
+				E57A627B1C2B935000381E46 /* 12.png in Resources */,
+				E57A62701C2B932000381E46 /* 03.png in Resources */,
+				E57A62851C2B935D00381E46 /* 05.png in Resources */,
 				E52AE8291C05C6200097AAD6 /* icon in Resources */,
-				E5C493AE1C0F0EED003896AE /* 10.png in Resources */,
-				E5C493B01C0F0F29003896AE /* 11.png in Resources */,
-				E5C493B21C0F0F6A003896AE /* 12.png in Resources */,
-				E58893C01BEA113700A5220F /* 06.png in Resources */,
-				E5C493951C0EF304003896AE /* 02.png in Resources */,
-				E5C493971C0EF33F003896AE /* icon03.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,7 +368,7 @@
 				E5C493C01C184DFF003896AE /* CameraViewController.m in Sources */,
 				E58893941BCE579D00A5220F /* ViewController.m in Sources */,
 				E58893911BCE579D00A5220F /* AppDelegate.m in Sources */,
-				E5C493BD1C18440F003896AE /* CameraManager.m in Sources */,
+				E57A626B1C2A7BFC00381E46 /* CameraManager.m in Sources */,
 				E588938E1BCE579D00A5220F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,7 +447,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -476,7 +484,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -490,7 +498,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = seihoukei/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -503,7 +511,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = seihoukei/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

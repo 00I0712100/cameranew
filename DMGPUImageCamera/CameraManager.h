@@ -10,6 +10,10 @@
 #import <GPUImage/GPUImage.h>
 
 @interface CameraManager : NSObject
+{
+    int ope;
+    
+}
 
 + (instancetype)sharedManager;
 
@@ -18,7 +22,13 @@
 
 - (void)switchCameraPosition: (GPUImageView *)imageView;
 - (void)setPreviousFilter: (GPUImageView *)imageView;
-
+- (void)setNextFilter: (GPUImageView *)imageView;
 - (void)takePhoto;
+
+-(IBAction)performPreviousButtonActio:(id)sender;
+-(IBAction)performNextButtonaction:(id)sender;
+-(IBAction)performShutterButtonaction:(id)sender;
+
+
 
 @end

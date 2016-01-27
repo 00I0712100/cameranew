@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController<UIImagePickerControllerDelegate, UINavigationBarDelegate>
 @property (weak, nonatomic) IBOutlet UIImageView *myImageView;
+@property (weak, nonatomic) IBOutlet UIImageView *whiteImageView;
+@property (weak, nonatomic) UIImage *takenImage;
 
 -(IBAction)Camera:(id)sender;
 -(IBAction)CameraRoll:(id)sender;
@@ -17,6 +19,7 @@
 -(IBAction)Fill:(id)sender;
 -(IBAction)Sankaku:(id)sender;
 -(IBAction)Save:(id)sender;
+
 
 
 @end

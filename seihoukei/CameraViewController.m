@@ -8,10 +8,12 @@
 
 #import "CameraViewController.h"
 #import "CameraManager.h"
+#import "ViewController.h"
 
 @interface CameraViewController ()
 
 @property (weak,nonatomic) IBOutlet GPUImageView *cameraView;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *cameraButton2;
 
 @end
 
@@ -37,7 +39,13 @@
 {
     [[CameraManager sharedManager]takePhoto];
     
+    
+   //画面遷移
+    [self performSegueWithIdentifier:@"toViewController" sender:nil];
+    //画像受け渡す
+    
 }
+
 -(IBAction)performSwitchCameraButtonAction:(UIButton *)sender
 {
     [[CameraManager sharedManager] switchCameraPosition:self.cameraView];
@@ -50,7 +58,7 @@
 -(IBAction)performNextButtonAction:(UIBarButtonItem *)sender
 {
     //変える
-    [[CameraManager sharedManager] setPreviousFilter:self.cameraView];
+    [[CameraManager sharedManager] setNextFilter:self.cameraView];
 }
 
 
@@ -68,5 +76,20 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @end
