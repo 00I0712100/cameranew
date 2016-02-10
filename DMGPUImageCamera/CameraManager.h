@@ -8,12 +8,12 @@
 
 #import <Foundation/Foundation.h>
 #import <GPUImage/GPUImage.h>
-
 @interface CameraManager : NSObject
 {
     int ope;
     
 }
+
 
 + (instancetype)sharedManager;
 

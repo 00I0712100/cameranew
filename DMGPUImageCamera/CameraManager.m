@@ -8,7 +8,6 @@
 
 #import "CameraManager.h"
 #import "ViewController.h"
-
 @interface CameraManager()
 
 @property(nonatomic, strong)GPUImageStillCamera *stillCamera;

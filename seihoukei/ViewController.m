@@ -32,7 +32,7 @@
     
     whiteImage = [[UIImageView alloc] init];
     whiteImage.backgroundColor = [UIColor clearColor];
-    whiteImage.frame = CGRectMake(0, rect1.size.height /2 -rect1.size.width /2, rect1.size.width, rect1.size.width);
+    whiteImage.frame = CGRectMake(0, rect1.size.height / 2 - rect1.size.width / 2, rect1.size.width, rect1.size.height);
     [self.view addSubview:whiteImage];
     
    // myImage = [UIImage imageNamed:@"image11.png"];
@@ -114,19 +114,22 @@ didFinishPickingMediaWithInfo:(NSDictionary *)info {
     _myImageView.contentMode =UIViewContentModeScaleAspectFit;
 }
 -(IBAction)Save:(id)sender{
-     CGRect screenRect = [[UIScreen mainScreen] bounds];
-    　screenRect =CGRectMake(0, screenRect.size.height /2 -screenRect.size.width /2, screenRect.size.width, screenRect.size.width);
+    // TODO: ここ書き換え                                                                      
+    CGRect screenRect = [[UIScreen mainScreen] bounds];
+    //なんか最初の2つが効かない↓
+    screenRect =CGRectMake(0, screenRect.size.height /2 - screenRect.size.width /2, screenRect.size.width, screenRect.size.width);
+    
     NSLog(@"CGRect ->%f %f %f %f",screenRect.origin.x, screenRect.origin.y, screenRect.size.width, screenRect.size.height);
     
     
-    //直す
-    
-    UIGraphicsBeginImageContextWithOptions(screenRect.size, NO,1);
+    //画質を良くした
+    UIGraphicsBeginImageContextWithOptions(screenRect.size, NO,0);
     CGContextRef ctx = UIGraphicsGetCurrentContext();
-    [[UIColor blackColor]set];
+    [[UIColor whiteColor]set];
     CGContextFillRect(ctx,screenRect);
+    CGContextMoveToPoint(ctx, 60.0,0.0);
     
-    [self.view.layer renderInContext:ctx];
+    [self.myImageView.layer renderInContext:ctx];
     
     NSData *pngDate = UIImagePNGRepresentation(UIGraphicsGetImageFromCurrentImageContext());
     UIImage *screenImage = [UIImage imageWithData:pngDate];
