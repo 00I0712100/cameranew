@@ -10,7 +10,7 @@
 
 
 @interface ViewController (){
-    UIImageView *whiteImage;
+    //UIImageView *whiteImage;
     UIImage * myImage;
     UIImageView *myImageView;
     UIButton *bt1;
@@ -29,17 +29,21 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     CGRect rect1 = [[UIScreen mainScreen] bounds];
-    
-    whiteImage = [[UIImageView alloc] init];
-    whiteImage.backgroundColor = [UIColor clearColor];
-    whiteImage.frame = CGRectMake(0, rect1.size.height / 2 - rect1.size.width / 2, rect1.size.width, rect1.size.height);
-    [self.view addSubview:whiteImage];
+//    whiteImage = [[UIImageView alloc] init];
+//    whiteImage.backgroundColor = [UIColor clearColor];
+//    whiteImage.frame = CGRectMake(0, rect1.size.height / 2 - rect1.size.width / 2, rect1.size.width, rect1.size.height);
+//    [self.view addSubview:whiteImage];
     
    // myImage = [UIImage imageNamed:@"image11.png"];
-    myImageView =[[UIImageView alloc] initWithImage:self.takenImage];
+    myImageView =[[UIImageView alloc] init];
     myImageView.frame = CGRectMake(0, rect1.size.height /2 -rect1.size.width /2, rect1.size.width, rect1.size.width);
-    myImageView.contentMode = UIViewContentModeScaleAspectFit;
+    NSLog(@"CGRect ->%f %f %f %f",rect1.origin.x, rect1.origin.y, rect1.size.width, rect1.size.height);
+
+    myImageView.contentMode = UIViewContentModeScaleAspectFill;
     [self.view addSubview:myImageView];
+    
+    
+    NSLog(@"UIImageViewのサイズは...%f", _myImageView.bounds.size.height);
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -74,7 +78,8 @@ didFinishPickingMediaWithInfo:(NSDictionary *)info {
     UIImage *cameraImage = [info objectForKey:UIImagePickerControllerOriginalImage];
     [_myImageView setImage:cameraImage];
     [imagePicker dismissViewControllerAnimated:YES completion:nil];
-    
+    _myImageView.contentMode = UIViewContentModeScaleAspectFill;
+
     
 }
 
@@ -92,47 +97,54 @@ didFinishPickingMediaWithInfo:(NSDictionary *)info {
         didFinishPickerImage:(UIImage *)image editingInfon :(NSDictionary *)editingInfo {
     [self.myImageView setImage:image];
     [self dismissViewControllerAnimated:YES completion:nil];
-    _myImageView.contentMode = UIViewContentModeScaleToFill;
+    _myImageView.contentMode = UIViewContentModeScaleAspectFill;
 }
 
 -(IBAction)Fill:(id)sender{
-       CGRect rect = CGRectMake(-4,self.whiteImageView.frame.origin.y, self.view.bounds.size.width+8, self.view.bounds.size.width+8);
+    CGRect screen =[[UIScreen mainScreen]bounds];
+    CGRect rect = CGRectMake(0,screen.size.height / 2 - screen.size.width / 2,screen.size.width,screen.size.width);
     _myImageView.frame =rect;
-    _myImageView.contentMode =UIViewContentModeScaleToFill;
+    _myImageView.contentMode =UIViewContentModeScaleAspectFill;
 
+    NSLog(@"%f", _myImageView.bounds.size.height);
 }
 
 -(IBAction)Seihoukei:(id)sender{
-    CGRect rect = CGRectMake(0,self.myImageView.frame.origin.y, self.view.bounds.size.width, self.view.bounds.size.width);
+    CGRect screen =[[UIScreen mainScreen]bounds];
+
+    CGRect rect = CGRectMake(0,screen.size.height / 2 - screen.size.width / 2,screen.size.width,screen.size.width);
+    NSLog(@"CGRect ->%f %f %f %f",rect.origin.x, rect.origin.y, rect.size.width, rect.size.height);
     _myImageView.frame =rect;
     _myImageView.contentMode =UIViewContentModeScaleAspectFit;
 }
 
--(IBAction)Sankaku:(id)sender{//直す
-   CGRect rect = CGRectMake(15,self.myImageView.frame.origin.y, self.view.bounds.size.width - 30, self.view.bounds.size.width);
-    _myImageView.frame =rect;
-    _myImageView.contentMode =UIViewContentModeScaleAspectFit;
+-(IBAction)Sankaku:(id)sender{//直した！
+    CGRect screen =[[UIScreen mainScreen]bounds];
+    _myImageView.frame = CGRectInset(myImageView.bounds, 20, 20);
+    _myImageView.center = CGPointMake( screen.size.width / 2,screen.size.height / 2);
+    _myImageView.contentMode = UIViewContentModeScaleAspectFit;
 }
+
 -(IBAction)Save:(id)sender{
-    // TODO: ここ書き換え                                                                      
-    CGRect screenRect = [[UIScreen mainScreen] bounds];
-    //なんか最初の2つが効かない↓
-    screenRect =CGRectMake(0, screenRect.size.height /2 - screenRect.size.width /2, screenRect.size.width, screenRect.size.width);
     
-    NSLog(@"CGRect ->%f %f %f %f",screenRect.origin.x, screenRect.origin.y, screenRect.size.width, screenRect.size.height);
+    CGRect screenRect =CGRectMake(0, self->myImageView.frame.origin.y, self->myImageView.frame.size.width, self->myImageView.frame.size.width);
+//    
+//    NSLog(@"CGRect ->%f %f %f %f",screenRect.origin.x, screenRect.origin.y, screenRect.size.width, screenRect.size.height);
+//
     
-    
-    //画質を良くした
-    UIGraphicsBeginImageContextWithOptions(screenRect.size, NO,0);
+      //画質を良くした
+    UIGraphicsBeginImageContextWithOptions(_myImageView.frame.size, NO,0);
     CGContextRef ctx = UIGraphicsGetCurrentContext();
-    [[UIColor whiteColor]set];
-    CGContextFillRect(ctx,screenRect);
-    CGContextMoveToPoint(ctx, 60.0,0.0);
+//    CGContextTranslateCTM(ctx, 0, -self->myImageView.frame.origin.y);
+    
+    CGContextSetFillColorWithColor(ctx, [[UIColor whiteColor] CGColor]);
+    [[UIColor whiteColor] set];
+    CGContextFillRect(ctx, CGRectMake(0, 0, _myImageView.frame.size.width, _myImageView.frame.size.width));
+    
     
     [self.myImageView.layer renderInContext:ctx];
     
-    NSData *pngDate = UIImagePNGRepresentation(UIGraphicsGetImageFromCurrentImageContext());
-    UIImage *screenImage = [UIImage imageWithData:pngDate];
+    UIImage *screenImage = UIGraphicsGetImageFromCurrentImageContext();
     
     UIActivityViewController *activityView = [[UIActivityViewController alloc] initWithActivityItems:@[screenImage]applicationActivities:@[] ];
     
