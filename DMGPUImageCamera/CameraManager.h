@@ -11,7 +11,7 @@
 @interface CameraManager : NSObject
 {
     int ope;
-    
+    UIImage *tookImage;
 }
 
 
@@ -25,7 +25,10 @@
 - (void)setNextFilter: (GPUImageView *)imageView;
 - (void)takePhoto;
 
--(IBAction)performPreviousButtonActio:(id)sender;
+-(UIImage*)getImage;
+
+
+-(IBAction)performPreviousButtonAction:(id)sender;
 -(IBAction)performNextButtonaction:(id)sender;
 -(IBAction)performShutterButtonaction:(id)sender;
 

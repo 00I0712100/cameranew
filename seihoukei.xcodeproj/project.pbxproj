@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		E5182C9A1C670CDF00DAA2A1 /* haikei01.png in Resources */ = {isa = PBXBuildFile; fileRef = E5182C991C670CDF00DAA2A1 /* haikei01.png */; };
+		E56F78E21CEC7F4B008E33E9 /* ColorSwapFilter.c in Sources */ = {isa = PBXBuildFile; fileRef = E56F78E01CEC7F4B008E33E9 /* ColorSwapFilter.c */; };
+		E56F78E41CEC8B22008E33E9 /* haikei02.png in Resources */ = {isa = PBXBuildFile; fileRef = E56F78E31CEC8B22008E33E9 /* haikei02.png */; };
+		E56F78E61CF5C1EF008E33E9 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E56F78E51CF5C1EF008E33E9 /* Photos.framework */; };
 		E57A626B1C2A7BFC00381E46 /* CameraManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E57A626A1C2A7BFC00381E46 /* CameraManager.m */; };
 		E57A626F1C2B932000381E46 /* 01_1.png in Resources */ = {isa = PBXBuildFile; fileRef = E57A626C1C2B932000381E46 /* 01_1.png */; };
 		E57A62701C2B932000381E46 /* 03.png in Resources */ = {isa = PBXBuildFile; fileRef = E57A626D1C2B932000381E46 /* 03.png */; };
@@ -83,6 +86,10 @@
 		1FECD8299E488619A9BE343B /* Pods-seihoukei.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-seihoukei.debug.xcconfig"; path = "Pods/Target Support Files/Pods-seihoukei/Pods-seihoukei.debug.xcconfig"; sourceTree = "<group>"; };
 		B189C824ED817EFD795263BB /* libPods-seihoukei.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-seihoukei.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5182C991C670CDF00DAA2A1 /* haikei01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = haikei01.png; sourceTree = "<group>"; };
+		E56F78E01CEC7F4B008E33E9 /* ColorSwapFilter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ColorSwapFilter.c; sourceTree = "<group>"; };
+		E56F78E11CEC7F4B008E33E9 /* ColorSwapFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorSwapFilter.h; sourceTree = "<group>"; };
+		E56F78E31CEC8B22008E33E9 /* haikei02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = haikei02.png; sourceTree = "<group>"; };
+		E56F78E51CF5C1EF008E33E9 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 		E57A62691C2A7BEA00381E46 /* CameraManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CameraManager.h; path = DMGPUImageCamera/CameraManager.h; sourceTree = SOURCE_ROOT; };
 		E57A626A1C2A7BFC00381E46 /* CameraManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CameraManager.m; path = DMGPUImageCamera/CameraManager.m; sourceTree = SOURCE_ROOT; };
 		E57A626C1C2B932000381E46 /* 01_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01_1.png; sourceTree = "<group>"; };
@@ -157,6 +164,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E56F78E61CF5C1EF008E33E9 /* Photos.framework in Frameworks */,
 				E8902FB6B969C811D6F15C77 /* libPods-seihoukei.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -183,6 +191,7 @@
 		931B2891C8B69273410F447F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E56F78E51CF5C1EF008E33E9 /* Photos.framework */,
 				B189C824ED817EFD795263BB /* libPods-seihoukei.a */,
 			);
 			name = Frameworks;
@@ -223,6 +232,8 @@
 				E58893981BCE579D00A5220F /* Images.xcassets */,
 				E588939A1BCE579E00A5220F /* LaunchScreen.xib */,
 				E588938B1BCE579D00A5220F /* Supporting Files */,
+				E56F78E01CEC7F4B008E33E9 /* ColorSwapFilter.c */,
+				E56F78E11CEC7F4B008E33E9 /* ColorSwapFilter.h */,
 			);
 			path = seihoukei;
 			sourceTree = "<group>";
@@ -256,6 +267,7 @@
 		E5C4939C1C0EF4AD003896AE /* images */ = {
 			isa = PBXGroup;
 			children = (
+				E56F78E31CEC8B22008E33E9 /* haikei02.png */,
 				E5182C991C670CDF00DAA2A1 /* haikei01.png */,
 				E5D8B2EC1C6457F70003D986 /* seihoukei@3x.png */,
 				E5D8B2ED1C6457F70003D986 /* seihoukei@2x.png */,
@@ -386,7 +398,7 @@
 				TargetAttributes = {
 					E58893871BCE579D00A5220F = {
 						CreatedOnToolsVersion = 6.4;
-						DevelopmentTeam = 4BTF9897A6;
+						DevelopmentTeam = R5J679W5D2;
 					};
 					E58893A01BCE579E00A5220F = {
 						CreatedOnToolsVersion = 6.4;
@@ -424,6 +436,7 @@
 				E5D8B29F1C6319260003D986 /* Icon-Small-50.png in Resources */,
 				E5D8B29B1C6319260003D986 /* Icon-Small@3x.png in Resources */,
 				E58893971BCE579D00A5220F /* Main.storyboard in Resources */,
+				E56F78E41CEC8B22008E33E9 /* haikei02.png in Resources */,
 				E5D8B2EB1C6457E40003D986 /* seihoukei.png in Resources */,
 				E5D8B2A31C6319260003D986 /* iTunesArtwork.png in Resources */,
 				E5D8B2D91C644E030003D986 /* save@3x.png in Resources */,
@@ -524,6 +537,7 @@
 				E5C493C01C184DFF003896AE /* CameraViewController.m in Sources */,
 				E58893941BCE579D00A5220F /* ViewController.m in Sources */,
 				E58893911BCE579D00A5220F /* AppDelegate.m in Sources */,
+				E56F78E21CEC7F4B008E33E9 /* ColorSwapFilter.c in Sources */,
 				E57A626B1C2A7BFC00381E46 /* CameraManager.m in Sources */,
 				E588938E1BCE579D00A5220F /* main.m in Sources */,
 			);
@@ -657,6 +671,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -670,6 +685,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -22,6 +22,8 @@
 
 //盛れるフィルター
 
+
+
 + (instancetype)sharedManager {
     static id manager;
     static dispatch_once_t onceToken;
@@ -98,8 +100,8 @@
     [self removeTarget: imageView];
     self.currentFilter = filter;
     [self applyFilter: imageView];
-}
-
+    
+    }
 - (NSInteger)currentFilterIndex {
     if(ope == 0){
         ope++;
@@ -146,10 +148,12 @@
                                        withCompletionHandler:^(UIImage *processedImage, NSError *error) {
      if (!error) {
          UIImageWriteToSavedPhotosAlbum(processedImage, self, @selector(image: didFinishSavingWithError: contextInfo: ), nil);
+         self->tookImage = processedImage;
+         
 
      }
      
-     }];
+                                       }];
 }
 
 - (void)image:(UIImage *)image didFinishSavingWithError: (NSError *)error contextInfo: (void *)contextInfo {
@@ -159,6 +163,12 @@
     }
 }
 
+
+//tookImageのgetter
+-(UIImage*)getImage{
+    return self->tookImage;
+
+}
 
 
 
